@@ -1,0 +1,30 @@
+"""
+需求包列表 - 小车轨迹跟踪程序
+
+这个文件列出了运行小车轨迹跟踪程序所需的Python包及其版本。
+
+安装命令：
+pip install -r requirements.txt
+
+或者逐个安装：
+pip install opencv-python
+pip install numpy
+pip install matplotlib
+
+"""
+
+# 核心依赖包
+opencv-python>=4.5.0       # 计算机视觉库，用于视频处理和目标跟踪
+numpy>=1.20.0              # 数值计算库
+matplotlib>=3.3.0          # 绘图库，用于轨迹可视化
+
+# 可选包（用于更好的性能）
+scipy>=1.7.0              # 科学计算库（可选）
+pillow>=8.0.0             # 图像处理库（必需，用于GUI）
+
+# 深度学习跟踪支持（可选，但强烈推荐）
+# 使用 pip install ultralytics 安装YOLO
+# ultralytics>=8.0.0       # YOLO深度学习目标检测（可选，提供最稳定的跟踪）
+
+# 开发和测试依赖（可选）
+pytest>=6.0.0            # 测试框架（可选）
