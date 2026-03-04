@@ -244,7 +244,7 @@ tracker = cv2.TrackerMOSSE_create()  # MOSSE跟踪器
 ## 版本信息
 
 - **版本**: 1.0.0
-- **作者**: Assistant  
+- **作者**: Cop, Rui Gao  
 - **更新日期**: 2026-02-01
 - **Python要求**: ≥3.7
 - **主要依赖**: OpenCV ≥4.5.0
@@ -261,5 +261,6 @@ tracker = cv2.TrackerMOSSE_create()  # MOSSE跟踪器
 3. 系统内存是否充足
 
 ---
+
 
 **享受轨迹跟踪的乐趣！** 🚗📈
